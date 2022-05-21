@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+  max-width: 100% !important;
+height: 100%;
+overflow-x: hidden;
+  }
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0;
+    height: 110px;
+    border-bottom: 1px solid #F55353 ;
+}
+
+.logo > img {
+    width: 430px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 20px;
+
+}
+
+.search {
+    margin: 50px;
+    width: 400px;
+    display: flex;
+    padding-left: 20px;
+}
+
+.searching {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.search > i {
+    width: 30px;
+    height: 60px;
+    padding-left: 7px;
+    font-size: 30px;
+    color: #F55353;
+}
+
+.others {
+     margin-top: 42px;   
+       font-size: 25px;
+    color: #F55353;
+    display: flex;
+    padding-left: -80px;
+  
+}
+
+.others > i {
+    font-size: 35px;
+    width: 40px;
+    height: 60px;
+    margin-top: 5px;
+   
+}
+
+.menu {
+    background-color: #F55353;
+    width: 214vh;
+    border-bottom: 1px solid #F55353 ;
+    padding: 10px 50px;
+    font-size: 20px;
+    /* margin-left: 60px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    border-right: 2px solid #D0C9C0;
+    visibility: visible;
+}
+
+
+.menu a {
+    color: white;
+    text-decoration: none;
+        padding-left: 60px;
+    padding-right: 80px;
+}
+
+.menu .fa {
+    color: white;
+    width: 60px;
+    border-right: 2px solid #D0C9C0 ;
+    font-size: 30px;
+    /* padding-left: 30x;
+    padding-right: 90px; */
+}
+
+li {
+    list-style-type: none;
+}
+
+.menu > li {
+    /* padding: 0 12px; */
+    position: relative;
+}
+.hihi {
+    border-right: 2px solid #D0C9C0 ;
+    /* visibility: visible ; */
+}
+
+
+
+.menu > li:hover .sub-menu {
+    visibility: visible;
+    top: 22px;
+    transition: 0.2s;
+    
+}
+
+.sub-menu {
+    position: absolute;
+    width: 400px;
+    padding: 10px 0 10px 10px;
+    margin: 0;
+    visibility: collapse;
+    background-color: #2F8F9D;
+    z-index: 1;
+    top: 50px;
+  border-radius: 9px;
+}
+
+.sub-menu > li a {
+    padding: 10px 0 10px 10px;
+    margin: 5px 5px 10px 20px;
+    line-height: 1.5;
+}
+
+#slider {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    height: 560px;
+}
+
+.aspect-ratio-169 {
+    display: flex;
+    position: relative;
+    padding-top: 56.25%;
+    transition: 1.5s;
+    
+}
+
+.aspect-ratio-169 img {
+    display: flex;
+    position: absolute;
+    margin-left: 300px;
+    width: 60%;
+    height: 60%;
+    top: 0;
+    left: 0;
+padding-bottom: 0;
+}
+
+.dot-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+     text-align: center;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 30px;
+    margin-top: -320px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #82DBD8 ;
+    border-radius: 50%;
+    margin-right: 12px;
+    cursor: pointer;
+    
+}
+
+.dot.active {
+    background-color: #333;
+}
+
+.intro {
+    font-size: 50px;
+    color: #F55353;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+#introduce {
+    background-color: #FEFBE7;
+    padding-top: 10px;
+}
+.shop {
+    font-size: 25px;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: none;
+    line-height: 1.7;
+}
+
+.dot-introduce {
+      height: 100%;
+    width: 100%;
+    display: flex;
+     text-align: center;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 30px;
+}
+
+.dot2 {
+    height: 10px;
+    width: 10px;
+    background-color: #D885A3 ;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+#service {
+    background-color: #B3E8E5;
+    padding-top: 10px;
+}
+
+.service-list {
+    margin-left: 60px;
+    line-height: 1.7;
+    font-size: 25px;
+}
+
+.fa-check {
+    padding-right: 14px;
+}
+
+#linhkien {
+    background-color: white;
+    padding-top: 20px;
+    display: relative;
+}
+.image-product {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  .san-pham {
+      margin-left: 70px;
+      margin-bottom: 20px;
+      padding: 10px;
+      box-sizing: border-box;
+      width: 230px;
+      border: 1px solid black;
+      border-radius: 10px;
+      font-size: 20px;
+  }
+ 
+  .san-pham img {
+      width: 200px;
+      padding-left: 30px;
+  }
+
+.san-pham a {
+    text-decoration: none;
+}
+
+.san-pham p {
+    padding-top: 10px;
+     padding-bottom: 10px;
+     text-align: center;
+}
